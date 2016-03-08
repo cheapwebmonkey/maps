@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B655D3181C8D29F8007BF3A8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B655D3171C8D29F8007BF3A8 /* CoreLocation.framework */; };
 		B6E775041C8776B0002EDE57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E775031C8776B0002EDE57 /* AppDelegate.swift */; };
 		B6E775061C8776B0002EDE57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E775051C8776B0002EDE57 /* ViewController.swift */; };
 		B6E775091C8776B0002EDE57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E775071C8776B0002EDE57 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B655D3171C8D29F8007BF3A8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		B6E775001C8776B0002EDE57 /* GrubScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrubScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E775031C8776B0002EDE57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6E775051C8776B0002EDE57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B655D3181C8D29F8007BF3A8 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		B6E774F71C8776B0002EDE57 = {
 			isa = PBXGroup;
 			children = (
+				B655D3171C8D29F8007BF3A8 /* CoreLocation.framework */,
 				B6E775021C8776B0002EDE57 /* GrubScore */,
 				B6E775011C8776B0002EDE57 /* Products */,
 			);
@@ -286,6 +290,7 @@
 				B6E775141C8776B0002EDE57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

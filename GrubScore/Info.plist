@@ -30,6 +30,10 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>It&apos;s cool to use your location to find restaurants, right?</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Allow background app location?</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
